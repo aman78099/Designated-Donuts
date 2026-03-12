@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Designated Donuts</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Designated Donuts</label>
+            <ul>
+                <li><a href="{{ url_for('home_page') }}">Home</a></li>
+                <li><a href="{{ url_for('about_page') }}">About</a></li>
+                <li><a href="{{ url_for('order_page') }}">Order</a></li>
+                <li><a href="{{ url_for('reviews_page') }}">Reviews</a></li>
+            </ul>
+          </nav>
+
+          <section>
+            <div class="main-container">
+                <h1 class="subtitle-txt">
+                    <a>Designated Donuts</a>
+                </h1>
+                <p class="description-txt">
+                    <a>Hello donut lovers</a>
+                </p>
+            </div>
+          </section>
+        </div>
+    </body>
+</html>
