@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+
+}
+
+.grid div:nth-child(even) {
+    background-color: red;
+}
+
+.grid div:nth-child(odd) {
+    background-color: green;
+}
+
+img {
+    margin-top: center;
+    width: 35%;
+    height: auto;
+}
