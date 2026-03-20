@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="blue"><img class="blue" src="blue.jpg"></div>
+        <div class="pink"><img class="pink" src="pink.jpg"></div>
+    </div>
+</body>
+</html>
